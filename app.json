@@ -1,0 +1,19 @@
+{
+  "expo": {
+    "name": "6 Week Pleasure Challenge",
+    "slug": "mast-challenge",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "userInterfaceStyle": "automatic",
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "com.example.mastchallenge"
+    },
+    "android": {
+      "package": "com.example.mastchallenge"
+    }
+  }
+}
