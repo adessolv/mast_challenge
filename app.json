@@ -1,19 +1,34 @@
 {
   "expo": {
-    "name": "6 Week Pleasure Challenge",
-    "slug": "mast-challenge",
+    "name": "6 Week Challenge",
+    "slug": "six-week-challenge",
     "version": "1.0.0",
     "orientation": "portrait",
-    "userInterfaceStyle": "automatic",
-    "assetBundlePatterns": [
-      "**/*"
+    "userInterfaceStyle": "dark",
+    "plugins": [
+      [
+        "expo-splash-screen",
+        {
+          "image": "./assets/splash-image.png",
+          "backgroundColor": "#0D1117",
+          "imageWidth": 300
+        }
+      ],
+      "expo-font"
     ],
     "ios": {
-      "supportsTablet": true,
-      "bundleIdentifier": "com.example.mastchallenge"
+      "supportsTablet": true
     },
     "android": {
-      "package": "com.example.mastchallenge"
+      "adaptiveIcon": {
+        "backgroundColor": "#111318"
+      },
+      "package": "com.adessolv.sixweekchallenge"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "ff7164d8-89d9-493a-8832-605c9bd3792f"
+      }
     }
   }
 }
